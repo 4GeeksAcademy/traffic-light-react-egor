@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-const Home = () => {
+const TrafficLight = () => {
   const [activeColor, setActiveColor] = useState('');
   const [toggleLights, setToggleLights] = useState(false);
   const [showPurpleLight, setShowPurpleLight] = useState(false);
@@ -62,4 +62,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default TrafficLight;
